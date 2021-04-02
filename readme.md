@@ -7,8 +7,7 @@
 	<li>artisan storage:link</li>
 	<li>artisan migrate</li>
 	<li>yarn install</li>
-	<li>npm audit fix</li>
-	<li>npm run dev</li>
+	<li>yarn run dev ()</li>
 </ol>
 
  <ol>
