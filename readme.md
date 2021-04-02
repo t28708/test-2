@@ -1,7 +1,7 @@
 <h2>Install</h2>
 
 <ol>
-	<li>git clone https://github.com/t28708/test-2.git [name folder]</li>
+	<li>git clone https://github.com/t28708/test2.git  [name folder]</li>
     <li>cd [name folder]</li>
 	<li>php artisan config:cache</li>
 	<li>artisan storage:link</li>
