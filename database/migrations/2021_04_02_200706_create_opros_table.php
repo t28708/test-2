@@ -16,7 +16,7 @@ class CreateOprosTable extends Migration
         Schema::create('opros', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->timestamps();
-            $table->string('body')->nullable;
+            $table->string('body')->nullable();
 
 
         });
