@@ -8,7 +8,7 @@
 <li>php artisan config:cache</li>
 <li>artisan storage:link</li>
 <li>artisan migrate</li>
-<li>yarn install (or npm install)</li>
+<li>yarn install</li>
 
 <li>npm audit fix</li>
 <li>npm run dev</li>
@@ -16,7 +16,7 @@
 </ol>
 <h3>Пояснение</h3>
 
- <ol>
+ <ul>
 
  <li>Защита от ПОВТОРНОГО голосовая путём удаления LocalStorage не сработает. То есть удалив localstorage можно голосовать повторно.</li>
  <li>Но мы вроде как зарегистрированы. Но опрос анонимный, так как я не создал поле user_id с привязкой к таблице user LARAVEl</li>
@@ -25,4 +25,4 @@
  <li>И вывести сколько "кого" после голосования</li>
 
 
-</ol>
+</ul>
